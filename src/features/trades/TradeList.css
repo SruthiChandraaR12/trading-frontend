@@ -1,0 +1,73 @@
+/* Container */
+.trade-list {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.trade-list h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Table */
+.trade-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.trade-list th,
+.trade-list td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.trade-list thead {
+  background: #0077cc;
+  color: white;
+}
+
+.trade-list tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.trade-list tbody tr:hover {
+  background: #e6f7ff;
+  transition: 0.3s;
+}
+
+/* Buttons & Links */
+.trade-list a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.trade-list a:hover {
+  text-decoration: underline;
+}
+
+.trade-list button {
+  background: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.trade-list button:hover {
+  background: #d9363e;
+}
